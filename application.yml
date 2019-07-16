@@ -1,0 +1,16 @@
+spring: 
+    profiles: dev  
+    application: 
+        name: woniucloud-provider-dev 
+        
+---
+spring: 
+    profiles: test  
+    application: 
+        name: woniucloud-provider-test 
+        
+---
+spring: 
+    profiles: pro 
+    application: 
+        name: woniucloud-provider-pro
